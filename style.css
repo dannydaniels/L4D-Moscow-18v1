@@ -1,0 +1,157 @@
+/* ---!!--- tags ---!!--- */
+
+a {
+	color: lightblue;
+}
+
+html {
+	/*background-color: #1f1f1f;*/
+	background-image: url(img/bgg.jpg);
+	background-color: transparent; 
+  background-repeat: repeat, no-repeat; 
+  background-position: center center; 
+  background-attachment: fixed; 
+  -webkit-background-size: auto, cover; 
+  -moz-background-size: auto, cover; 
+  -o-background-size: auto, cover; 
+  background-size: auto, cover;
+}
+
+p {
+	color: white;
+}
+
+hr {
+	color: #000000;
+	background-color: #000000;
+	height: 2px;
+	width: 780px;
+	border-width: 0px;
+}
+
+button {
+    background: #1f1f1f;
+    padding: 7px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border: solid 0px #363636;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    border-bottom-width: 1px;
+}
+
+button:hover {
+	background: #363636;
+}
+
+
+/* ---!!--- tags ---!!--- */
+
+#bg-img {
+	background-image: url(img/page-bg1.jpg);
+	background-color: blue;
+	height: 250px;
+}
+
+#container {
+	width: 1010px;
+	background-color: white;
+	margin: 50px auto;
+}
+
+#content {
+	width: 800px;
+	float:left;
+	box-shadow: 0 0 15px rgba(0,0,0,0.9);
+}
+
+#header {
+	background-color: green;
+	height: 100px;
+}
+
+#wraper {
+	background-color: #1f1f1f;
+	width: 800px;
+	height: auto;
+	max-height: 1500px;
+	opacity: 0.8;
+}
+
+#footer {
+	background-color: darkred;
+	width: 800px;
+	height: 50px;
+	margin-top: 5px;
+	opacity: 0.7;
+	box-shadow: 0 0 15px rgba(0,0,0,0.9);
+}
+
+#fleft {
+	float: left;
+	padding-left: 20px;
+}
+
+#fright {
+	float: right;
+	padding-right: 20px;
+}
+
+#info {
+	background-color: #1f1f1f;
+	width: 200px;
+	height: 600px;
+	float: right;
+	margin-left: 5px;
+	margin-top: 250px;
+	opacity: 0.8;
+	box-shadow: 0 0 15px rgba(0,0,0,0.9);
+	}
+
+#wrowleft {
+	float: left;
+	padding-left: 16px;
+	width: 360px;
+}
+
+#wrowright {
+	float: right;
+	padding-right: 16px;
+	width: 360px;
+}
+
+#stats {
+	opacity: 1.0;
+}
+
+/* ---!!--- classes ---!!--- */
+
+.contacts {
+	font-family: Arial;
+	font-size: 20px;
+	padding-top: 35px;
+	padding-left: 30px;
+	letter-spacing: 15px;
+	line-height: 35px;
+}
+
+.footertext {
+	color: white;
+	padding-bottom: 16px;
+}
+
+.footertext2 {
+	color: white;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.block-banner {
+	margin-left: 45px;
+	margin-top: 20px;
+	padding-bottom: 40px;
+
+}
